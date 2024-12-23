@@ -55,7 +55,7 @@
 1. **克隆仓库**：
 
    ```bash
-   git clone https://github.com/yourusername/covid19-xray-classification.git
+   git clone https://github.com/guangzhaoli/covid19-xray-classification.git
    cd covid19-xray-classification
    ```
 
