@@ -1,5 +1,6 @@
 # ⚕️ COVID-19 X 光片智能分类系统
 
+[![Modelscope](https://img.shields.io/badge/Modelscope-space-purple)](https://www.modelscope.cn/studios/liguangzhao/covid19-xray-classification/summary)
 
 **一个基于深度学习的双阶段 COVID-19 胸部 X 光片分类解决方案，采用去噪自编码器和卷积神经网络技术。**
 
@@ -25,7 +26,7 @@
 ├── train_autoencoder.py # ⚙️ 自编码器训练代码
 ├── train_cnn.py        # ⚙️ CNN训练代码
 ├── inference.py        # 🧪 模型推理脚本
-├── gradio_app.py       # 🌐 Web界面应用
+├── app.py       # 🌐 Web界面应用
 └── requirements.txt    # 📦 项目依赖
 ```
 
@@ -136,7 +137,7 @@ python main.py \
 ### 2. 🌐 启动 Web 界面
 
 ```bash
-python gradio_app.py \
+python app.py \
     --autoencoder_path /path/to/your/ae_pretrained.pth \
     --cnn_path /path/to/your/cnn_pretrained.pth \
     --port 7860
@@ -228,7 +229,7 @@ python main.py \
     --noise_factor 0.3
 
 # 运行Gradio前端
-python gradio_app.py \
+python app.py \
     --autoencoder_path results/autoencoder/checkpoints/best_model.pth \
     --cnn_path results/cnn/checkpoints/best_model.pth \
     --port 7860
@@ -280,7 +281,7 @@ python gradio_app.py \
 
 - **作者**：[Guangzhao Li]
 - **邮箱**：[gzhao.cs@gmail.com]
-- **GitHub**：[@Your GitHub Profile](https://github.com/guangzhaoli)
+- **GitHub**：[@GitHub Profile](https://github.com/guangzhaoli)
 
 ---
 

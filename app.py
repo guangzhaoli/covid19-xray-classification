@@ -154,9 +154,9 @@ if __name__ == "__main__":
     import os
     
     parser = argparse.ArgumentParser(description='COVID-19 X-ray Classification Demo')
-    parser.add_argument('--autoencoder_path', type=str, required=True,
+    parser.add_argument('--autoencoder_path', type=str, required=True, default="results/autoencoder/checkpoints/best_model.pth",
                         help='Path to trained autoencoder model')
-    parser.add_argument('--cnn_path', type=str, required=True,
+    parser.add_argument('--cnn_path', type=str, required=True, default="results/cnn/checkpoints/best_model.pth",
                         help='Path to trained CNN model')
     parser.add_argument('--port', type=int, default=7860,
                         help='Port to run the interface on')
