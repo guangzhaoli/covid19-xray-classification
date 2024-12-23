@@ -1,0 +1,10 @@
+gradio==5.9.1
+matplotlib==3.10.0
+numpy==2.2.1
+Pillow==11.0.0
+PyYAML==6.0.2
+scikit_learn==1.6.0
+seaborn==0.13.2
+torch==2.5.1
+torchvision==0.20.1
+tqdm==4.67.1

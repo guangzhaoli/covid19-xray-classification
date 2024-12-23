@@ -1,0 +1,20 @@
+training:
+  num_epochs: 100
+  batch_size: 32
+  learning_rate: 0.001
+  save_interval: 10
+
+model:
+  input_channels: 1
+  hidden_channels: 32
+  latent_channels: 64
+
+data:
+  image_size: 256
+  train_dir: "data/train"
+  test_dir: "data/noisy_test"
+  preprocess:
+    resize_size: [256, 256]  # 图像调整大小，需要与 dataset.py 中的 Resize 对应
+    normalize: True         # 是否进行标准化
+    mean: [0.5]             # 灰度图像的均值，需要与 dataset.py 中的 Normalize 对应
+    std: [0.5]              # 灰度图像的标准差，需要与 dataset.py 中的 Normalize 对应

@@ -1,0 +1,7 @@
+image,Original Image,Noisy Image,Denoised Image,Prediction Results,timestamp
+.gradio/flagged/image/f0e414e23d72f25da3fd/04.jpeg,.gradio/flagged/Original Image/a2a262650141b8bc91fd/image.webp,.gradio/flagged/Noisy Image/41272da98ac81a25334d/image.webp,.gradio/flagged/Denoised Image/139f970924bc3f26963a/image.webp,"Covid-19: 0.03%
+Normal: 99.27%
+Viral Pneumonia: 0.70%",2024-12-24 00:56:10.396611
+.gradio/flagged/image/af5349f07d88b859779a/04.jpeg,.gradio/flagged/Original Image/386b7f6f41a669e7fdf8/image.webp,.gradio/flagged/Noisy Image/ee5cff024f18c515d968/image.webp,.gradio/flagged/Denoised Image/e289f687077a6935b59f/image.webp,"Covid-19: 0.03%
+Normal: 99.27%
+Viral Pneumonia: 0.70%",2024-12-24 00:56:12.556275
