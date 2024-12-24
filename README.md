@@ -1,5 +1,9 @@
 # ⚕️ COVID-19 X 光片智能分类系统
 
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)
+![Gradio](https://img.shields.io/badge/Gradio-5.9x-orange.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 [![Modelscope](https://img.shields.io/badge/Modelscope-space-purple)](https://www.modelscope.cn/studios/liguangzhao/covid19-xray-classification/summary)
 
 **一个基于深度学习的双阶段 COVID-19 胸部 X 光片分类解决方案，采用去噪自编码器和卷积神经网络技术。**
